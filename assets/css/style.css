@@ -503,7 +503,7 @@ textarea.error {
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 700px) {
     .section-title {
         font-size: 2em;
         line-height: 1em;
@@ -518,7 +518,7 @@ textarea.error {
     }
 
     #nav li {
-        font-size: 0.750em;
+        font-size: 0.938em;
     }
 
     #nav li a span {
@@ -546,12 +546,26 @@ textarea.error {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 750px) {
     .section-content {
         margin-top: 45px;
     }
 
     #nav ul li {
         padding: 0 5px;
+        font-size: 0.813em;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    #nav ul li {
+        font-size: 0.563em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #nav ul li {
+        font-size: 0.375em;
     }
 }
