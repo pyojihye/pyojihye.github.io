@@ -126,11 +126,3 @@ Note: Respond.js only understands min-width / max-width media queries
 	.col-3-5,
 	.col-1-6 { float: none; width: 100%; }
 }
-
-@media screen and (max-device-width: 540px) {
-	/* Break-point if needed */
-}
-
-@media screen and (max-width: 320px) {
-	/* Break-point if needed */
-}
