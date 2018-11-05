@@ -319,7 +319,7 @@ textarea.error {
 
 /* 3. About Me */
 
-#aboutme .line {
+#intro .line {
     background-color: #C3D1C4;
 }
 
@@ -352,17 +352,17 @@ textarea.error {
     text-align: center;
 }
 
-/* 6. Experience */
+/* 6. project */
 
-#experience .line {
+#project .line {
     background-color: #536B89;
 }
 
-#experience .bullet {
+#project .bullet {
     color: #536B89;
 }
 
-.experience h3 {
+.project h3 {
     margin: 0 0 10px 0;
     text-align: center;
 }
@@ -372,18 +372,18 @@ textarea.error {
     text-align: center;
 }
 
-.experience-attributions {
+.project-attributions {
     display: block;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.15em;
 }
 
-.experience-period {
+.project-period {
     text-align: center;
 }
 
-.experience-category {
+.project-category {
     text-align: center;
 }
 
@@ -498,7 +498,7 @@ textarea.error {
         width: 33.33333333333333%;
     }
 
-    .experience-project {
+    .project-experience {
         width: 50%;
     }
 }
@@ -529,13 +529,13 @@ textarea.error {
         width: 200px;
     }
 
-    .experience-category,
-    .experience-period {
+    .project-category,
+    .project-period {
         text-align: center;
     }
 
     .skill,
-    .experience-project,
+    .project-experience,
     .project {
         float: left;
         width: 50%;
@@ -570,8 +570,8 @@ textarea.error {
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     #nav ul li {
-        font-size: 0.2em;
+        font-size: 0.15em;
     }
 }
