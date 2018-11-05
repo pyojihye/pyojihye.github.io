@@ -564,8 +564,14 @@ textarea.error {
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
     #nav ul li {
         font-size: 0.375em;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #nav ul li {
+        font-size: 0.2em;
     }
 }
