@@ -560,19 +560,21 @@ textarea.error {
 
 @media screen and (max-width: 550px) {
     #nav ul li {
+        padding: 0 4px;
         font-size: 0.563em;
     }
 }
 
 @media screen and (max-width: 450px) {
     #nav ul li {
+        padding: 0 3px;
         font-size: 0.375em;
     }
 }
 
 @media screen and (max-width: 300px) {
     #nav ul li {
+        padding: 0 2px;
         font-size: 0.3em;
     }
 }
-
